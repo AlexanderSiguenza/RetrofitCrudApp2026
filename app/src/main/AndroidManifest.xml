@@ -15,15 +15,15 @@
         android:theme="@style/Theme.RetrofitCrudApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CrearAlumnoActivity"/>
-        <activity android:name=".ActualizarAlumnoActivity"/>
+        <activity android:name=".ui.activities.CrearAlumnoActivity"/>
+        <activity android:name=".ui.activities.ActualizarAlumnoActivity"/>
     </application>
 
 </manifest>
